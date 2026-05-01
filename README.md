@@ -2,21 +2,33 @@
 
 > **Real-time Scan-to-Speech pipeline** using YOLOv11 + Gemini Vision + Twilio Safety Shield — designed for **offline-first local processing** with cloud-based emergency alerts.
 
-### 🔗 Links
-
-| | URL |
-|---|---|
-| **GitHub (HTTPS)** | `https://github.com/Prathvikakrishnamoger/Iris-AI.git` |
-| **GitHub (SSH)** | `git@github.com:Prathvikakrishnamoger/Iris-AI.git` |
-| **Live Backend** | [https://iris-ai-xvj5.onrender.com](https://iris-ai-xvj5.onrender.com) |
-| **Health Check** | [https://iris-ai-xvj5.onrender.com/health](https://iris-ai-xvj5.onrender.com/health) |
+### 📦 Repository
 
 ```bash
-# Clone the repo
+# Clone via HTTPS
 git clone https://github.com/Prathvikakrishnamoger/Iris-AI.git
-# or via SSH
+
+# Clone via SSH
 git clone git@github.com:Prathvikakrishnamoger/Iris-AI.git
 ```
+
+---
+
+## 🌐 Live Infrastructure
+
+The IrisAI backend is a **containerized FastAPI service** deployed on the **Render Cloud Platform**.
+
+| Endpoint | Purpose | Status |
+|----------|---------|--------|
+| [**Live API Root**](https://iris-ai-xvj5.onrender.com) | `iris-ai-xvj5.onrender.com` | 🟢 Production Ready |
+| [**System Health**](https://iris-ai-xvj5.onrender.com/health) | `/health` | ✅ 100% Online |
+| [**API Documentation**](https://iris-ai-xvj5.onrender.com/docs) | `/docs` | 📖 Interactive UI |
+
+#### What these links represent:
+
+- **🩺 System Health** — A real-time diagnostic heartbeat. The JSON output monitors the status of our **OCR engine**, **Gemini reasoning loop**, **YOLO classifier**, and **interaction checker** to ensure 99.9% uptime for our users.
+
+- **📖 Interactive API (Swagger)** — By visiting the `/docs` path, judges can explore the technical structure of every endpoint our mobile app uses to process data — including live "Try it out" functionality.
 
 ---
 
