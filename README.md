@@ -2,6 +2,22 @@
 
 > **Real-time Scan-to-Speech pipeline** using YOLOv11 + Gemini Vision + Twilio Safety Shield — designed for **offline-first local processing** with cloud-based emergency alerts.
 
+### 🔗 Links
+
+| | URL |
+|---|---|
+| **GitHub (HTTPS)** | `https://github.com/Prathvikakrishnamoger/Iris-AI.git` |
+| **GitHub (SSH)** | `git@github.com:Prathvikakrishnamoger/Iris-AI.git` |
+| **Live Backend** | [https://iris-ai-xvj5.onrender.com](https://iris-ai-xvj5.onrender.com) |
+| **Health Check** | [https://iris-ai-xvj5.onrender.com/health](https://iris-ai-xvj5.onrender.com/health) |
+
+```bash
+# Clone the repo
+git clone https://github.com/Prathvikakrishnamoger/Iris-AI.git
+# or via SSH
+git clone git@github.com:Prathvikakrishnamoger/Iris-AI.git
+```
+
 ---
 
 ## 🏗️ Architecture
