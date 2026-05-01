@@ -1,0 +1,43 @@
+name: iris_app
+description: IrisAI — Medicine assistant for the visually impaired
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  google_fonts: ^6.1.0
+
+  # Local Storage (AES-256 encrypted)
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.2.0
+
+  # Haptic Feedback
+  vibration: ^2.0.0
+
+  # Text-to-Speech
+  flutter_tts: ^4.0.2
+
+  # Camera
+  camera: ^0.11.0
+
+  # HTTP
+  http: ^1.2.0
+  http_parser: ^4.0.0
+
+  # Sensors (shake detection for accessibility)
+  sensors_plus: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

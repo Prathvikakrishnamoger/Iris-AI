@@ -1,0 +1,182 @@
+{
+  "warfarin": {
+    "aspirin": {
+      "severity": "DANGER",
+      "description": "Concurrent use significantly increases the risk of major bleeding events including gastrointestinal hemorrhage and intracranial bleeding."
+    },
+    "ibuprofen": {
+      "severity": "DANGER",
+      "description": "NSAIDs reduce warfarin metabolism and increase anticoagulant effect, leading to high bleeding risk."
+    },
+    "naproxen": {
+      "severity": "DANGER",
+      "description": "Naproxen combined with warfarin greatly increases risk of GI bleeding."
+    },
+    "acetaminophen": {
+      "severity": "CAUTION",
+      "description": "High doses of acetaminophen (>2g/day) may enhance anticoagulant effect of warfarin."
+    },
+    "ciprofloxacin": {
+      "severity": "DANGER",
+      "description": "Ciprofloxacin inhibits CYP1A2, increasing warfarin levels and bleeding risk."
+    },
+    "fluconazole": {
+      "severity": "DANGER",
+      "description": "Fluconazole inhibits CYP2C9, dramatically increasing warfarin levels."
+    },
+    "amoxicillin": {
+      "severity": "CAUTION",
+      "description": "Some antibiotics may alter gut flora affecting vitamin K production and warfarin efficacy."
+    }
+  },
+  "lisinopril": {
+    "ibuprofen": {
+      "severity": "CAUTION",
+      "description": "NSAIDs may reduce the antihypertensive effect of ACE inhibitors and increase renal risk."
+    },
+    "potassium": {
+      "severity": "DANGER",
+      "description": "ACE inhibitors increase potassium retention; supplements may cause dangerous hyperkalemia."
+    },
+    "spironolactone": {
+      "severity": "DANGER",
+      "description": "Both increase potassium levels, risking life-threatening hyperkalemia."
+    },
+    "naproxen": {
+      "severity": "CAUTION",
+      "description": "NSAIDs reduce effectiveness of ACE inhibitors and may worsen kidney function."
+    }
+  },
+  "metformin": {
+    "alcohol": {
+      "severity": "DANGER",
+      "description": "Alcohol potentiates metformin's effect on lactate metabolism, increasing lactic acidosis risk."
+    },
+    "contrast_dye": {
+      "severity": "DANGER",
+      "description": "Iodinated contrast with metformin increases lactic acidosis risk. Stop metformin 48h before."
+    },
+    "ciprofloxacin": {
+      "severity": "CAUTION",
+      "description": "Ciprofloxacin may alter blood glucose levels when combined with metformin."
+    }
+  },
+  "atorvastatin": {
+    "clarithromycin": {
+      "severity": "DANGER",
+      "description": "Clarithromycin inhibits CYP3A4, dramatically increasing statin levels and rhabdomyolysis risk."
+    },
+    "grapefruit": {
+      "severity": "CAUTION",
+      "description": "Grapefruit inhibits CYP3A4 and may increase statin blood levels."
+    },
+    "gemfibrozil": {
+      "severity": "DANGER",
+      "description": "Fibrates combined with statins significantly increase myopathy and rhabdomyolysis risk."
+    }
+  },
+  "metoprolol": {
+    "verapamil": {
+      "severity": "DANGER",
+      "description": "Both drugs slow heart rate and AV conduction; combination may cause severe bradycardia or heart block."
+    },
+    "clonidine": {
+      "severity": "DANGER",
+      "description": "Abrupt discontinuation of either drug can cause rebound hypertension crisis."
+    },
+    "fluoxetine": {
+      "severity": "CAUTION",
+      "description": "Fluoxetine inhibits CYP2D6, increasing metoprolol levels and risk of bradycardia."
+    }
+  },
+  "sertraline": {
+    "tramadol": {
+      "severity": "DANGER",
+      "description": "Both increase serotonin; combination risks serotonin syndrome (hyperthermia, agitation, tremor)."
+    },
+    "sumatriptan": {
+      "severity": "DANGER",
+      "description": "Triptans with SSRIs increase serotonin syndrome risk."
+    },
+    "warfarin": {
+      "severity": "CAUTION",
+      "description": "SSRIs may impair platelet aggregation and increase bleeding risk with anticoagulants."
+    }
+  },
+  "omeprazole": {
+    "clopidogrel": {
+      "severity": "DANGER",
+      "description": "Omeprazole inhibits CYP2C19, blocking clopidogrel activation and reducing antiplatelet effect."
+    },
+    "methotrexate": {
+      "severity": "CAUTION",
+      "description": "PPIs may delay methotrexate elimination, increasing toxicity risk."
+    }
+  },
+  "ciprofloxacin": {
+    "antacids": {
+      "severity": "CAUTION",
+      "description": "Aluminum/magnesium antacids chelate ciprofloxacin, reducing absorption by up to 90%."
+    },
+    "theophylline": {
+      "severity": "DANGER",
+      "description": "Ciprofloxacin inhibits theophylline metabolism, risking seizures and cardiac arrhythmias."
+    },
+    "tizanidine": {
+      "severity": "DANGER",
+      "description": "Ciprofloxacin increases tizanidine levels 10-fold, causing severe hypotension and sedation."
+    }
+  },
+  "paracetamol": {
+    "warfarin": {
+      "severity": "CAUTION",
+      "description": "High doses of paracetamol (>2g/day) may enhance the anticoagulant effect of warfarin, increasing INR and bleeding risk."
+    },
+    "alcohol": {
+      "severity": "DANGER",
+      "description": "Paracetamol with alcohol significantly increases the risk of severe hepatotoxicity and liver failure."
+    },
+    "isoniazid": {
+      "severity": "CAUTION",
+      "description": "Isoniazid may increase paracetamol hepatotoxicity by inducing CYP2E1 enzyme."
+    }
+  },
+  "mefenamic acid": {
+    "warfarin": {
+      "severity": "DANGER",
+      "description": "Mefenamic acid increases anticoagulant effect and risk of gastrointestinal bleeding with warfarin."
+    },
+    "lithium": {
+      "severity": "CAUTION",
+      "description": "NSAIDs including mefenamic acid may increase lithium plasma levels, risking toxicity."
+    },
+    "methotrexate": {
+      "severity": "DANGER",
+      "description": "Mefenamic acid reduces renal clearance of methotrexate, increasing toxicity risk."
+    },
+    "aspirin": {
+      "severity": "CAUTION",
+      "description": "Concurrent use of two NSAIDs increases risk of gastrointestinal ulceration and bleeding."
+    }
+  },
+  "aceclofenac": {
+    "warfarin": {
+      "severity": "DANGER",
+      "description": "Aceclofenac increases bleeding risk when combined with anticoagulants."
+    },
+    "lisinopril": {
+      "severity": "CAUTION",
+      "description": "NSAIDs may reduce the antihypertensive effect of ACE inhibitors."
+    }
+  },
+  "nimesulide": {
+    "warfarin": {
+      "severity": "DANGER",
+      "description": "Nimesulide may enhance the anticoagulant effect of warfarin, increasing bleeding risk."
+    },
+    "metformin": {
+      "severity": "CAUTION",
+      "description": "Concurrent use may affect blood glucose control."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+# ── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+
+# ── Environment / Secrets ───────────────────
+.env
+.venv/
+venv/
+env/
+
+# ── ML Models (large binaries) ──────────────
+*.pt
+*.onnx
+*.engine
+
+# ── Encrypted / Sensitive Data ──────────────
+*.enc
+backend/data/dose_log.enc
+backend/data/med_history.json
+
+# ── IDE ─────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── OS ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Flutter ─────────────────────────────────
+iris_app/.dart_tool/
+iris_app/.packages
+iris_app/build/
+iris_app/.flutter-plugins
+iris_app/.flutter-plugins-dependencies
+iris_app/android/.gradle/
+iris_app/android/local.properties
+iris_app/android/app/build/
+iris_app/android/app/release/
+iris_app/ios/Pods/
+iris_app/ios/.symlinks/
+*.apk
+*.aab
+
+# ── HuggingFace / ML Cache ─────────────────
+.cache/
+*.h5
+*.safetensors
