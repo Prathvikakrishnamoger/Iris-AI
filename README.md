@@ -257,6 +257,4 @@ Iris-AI/
 
 ---
 
-## 📄 License
 
-MIT
