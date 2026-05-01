@@ -22,7 +22,7 @@ class AppConfig {
 
   /// ── PRODUCTION URL ──────────────────────────────────────
   /// Your deployed backend URL (Render, Railway, Cloud Run, etc.)
-  static const String _productionUrl = 'https://iris-ai-backend.onrender.com';
+  static const String _productionUrl = 'https://iris-ai-xvj5.onrender.com';
 
   /// ── YOUR LAPTOP'S WI-FI IP ──────────────────────────────
   /// Change this to match your network before device deployment
